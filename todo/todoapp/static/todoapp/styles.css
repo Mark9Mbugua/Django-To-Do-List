@@ -1,6 +1,6 @@
 body {
-	background: rgba(44, 62, 80, .8);
-	font-family: 'Oswald', 'Futura', sans-serif;
+	background: rgba(48, 55, 61, 0.8);
+	font-family: "Comic Sans MS", cursive, sans-serif;
 }
 #wrapper {
 	margin-top: 10% !important;
@@ -8,6 +8,7 @@ body {
 #content {
 	background: beige;
 	padding: 25px;
+	border-radius: 5px;
 }
 #content > h2 {
 	font-size: 18px;
