@@ -1,6 +1,9 @@
-# A To Do List
-This is a simple application which enables users to keep track of their schedules both in
-the long and short term. 
+# A To-do List App
+This is a simple to-do list application which outlines the best possible steps a young an inexperienced software developer
+can take in order to land that first job.
+
+# Hosting
+This application is hosted on Heroku. To access it click [here](https://ourrtodolist.herokuapp.com/)
 
 ## Getting Started
 Clone the repo from GitHub:
@@ -29,16 +32,16 @@ Create a database
   `create database to_do_list`
 
 Set up PostgreSQL in `To_do_list/todo/todo/settings.py` as follows:
-    `DATABASES = {`
-    `'default': {`
-        `'ENGINE': 'django.db.backends.postgresql_psycopg2',`
-        `'NAME': 'to_do_list',`
-        `'USER': 'postgres',`
-        `'PASSWORD': 'your_preferred_password',`
-        `'HOST': '',`
-        `'PORT': '',`
-    `}`
-`}`
+    DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'to_do_list',
+        'USER': 'postgres',
+        'PASSWORD': 'your_preferred_password',
+        'HOST': '',
+        'PORT': '',
+    }
+}
 
 ## Starting the server
 Navigate to the project folder
